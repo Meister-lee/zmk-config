@@ -27,7 +27,9 @@
                    &kp LCTRL  &kp LGUI  &kp LALT  &kp RALT  &kp SPACE     &kp SPACE  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
     };
 };
